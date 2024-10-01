@@ -33,6 +33,14 @@ public class ResultText : MonoBehaviour
 
     public void CallFinish(){
         Color currentColor;
+
+        if(GameObject.Find("Milk100").GetComponent<SpriteRenderer>().color.a >= 0.9999f)
+        {
+            transform.Find("Text1").GetComponent<Text>().text = "あなたのコーヒー\r\nほぼミルク\r\n\r\n↓";
+            transform.Find("Text2").GetComponent<Text>().text = "あなたのコーヒー\r\nほぼミルク\r\n\r\n↓";
+        }
+
+
         currentColor = transform.Find("Text1").GetComponent<Text>().color;
         transform.Find("Text1").GetComponent<Text>().color = new Color(
             currentColor.r,

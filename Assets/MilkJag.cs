@@ -108,6 +108,7 @@ public class MilkJag : MonoBehaviour
     {
         CallFinish();
         GameObject.Find("ResultText").GetComponent<ResultText>().CallFinish();
+        GameObject.Find("TweetButton").GetComponent<TweetButton>().CallFinish();
     }
 
     public void CallFinish(){

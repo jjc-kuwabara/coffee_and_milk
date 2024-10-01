@@ -45,7 +45,7 @@ public class MilkDrop : MonoBehaviour
         if(_dropTimer < 0.0f){
             Color currentColor = GameObject.Find("Milk100").GetComponent<SpriteRenderer>().color;
             float currentAlpha = currentColor.a;
-            currentAlpha += 0.05f;
+            currentAlpha += 0.025f;
             if(currentAlpha > 1.0f){
                 currentAlpha = 1.0f;
             }
