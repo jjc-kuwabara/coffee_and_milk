@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "coffee_and_milk.sln"
+    "dotnet.defaultSolution": "coffee_and_milk_github.sln"
 }
